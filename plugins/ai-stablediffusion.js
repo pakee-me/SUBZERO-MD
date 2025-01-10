@@ -41,7 +41,7 @@ if (!q) return reply("Please provide a prompt for the image.");
 await reply("Subzero Diffussing Your image...");
 
 // Generate and send requested image
-let data = await fetchJson(`https://api.davidcyriltech.my.id/flux?prompt=${q}`);
+let data = await fetchJson(`https://api.giftedtech.web.id/api/ai/fluximg?apikey=gifted&prompt=${q}`);
 const imageUrl = data.result;
 await conn.sendMessage(m.chat, { image: { url: imageUrl } });
 
