@@ -131,7 +131,7 @@ You will be asked to fill in some stuffs like your session Id , and other stuffs
 
 Get session I'd here:
 
-ttps://tinyurl.com/subzero-md-session-id
+https://tinyurl.com/subzero-md-session-id
 
 After you're done filling it
 Click deploy button 
@@ -175,11 +175,11 @@ That's all bot connected
 <p style="text-align: center; font-size: 1.2em;">
   
 <p align="center">
-<a href='https://app.netlify.com/' target="_blank"><img alt='Netlify' src='https://img.shields.io/badge/-Netlify Deploy-CC00FF?style=for-the-badge&logo=netlify&logoColor=white'/< width=150 height=28/p></a> </a>
+<a href='https://app.netlify.com/' target="_blank"><img alt='Netlify' src='https://img.shields.io/badge/-Netlify Deploy-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white'/< width=150 height=28/p></a> </a>
 
 <details>
   
-<b><strong><summary align="center" style="color: Yello;">EASIEST METHOD</summary></strong></b>
+<b><strong><summary align="center" style="color: Yello;">EASIEST METHOD 2</summary></strong></b>
 <p style="text-align: center; font-size: 1.2em;">
  
 
