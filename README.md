@@ -116,36 +116,24 @@ Create Account Here:
 
 https://host.talkdrove.com/auth/signup?ref=9535F15A
 
-
-Sign up 
-
-Login
-
+Then Login
 Claim 10 coins in wallet section
-
 Locate where to deploy your bot
-
 You will see a dashboard of bots listed 
 
 
 Click next , next
-
 Until you see SUBZERO MD
-
 Then click on it
 
 You will be asked to fill in some stuffs like your session Id , and other stuffs on how you want your bot to be ( bot settings ) , it's not hard I added examples
 
-Get session I'd here Incase you need it:
 
-https://tinyurl.com/subzero-md-session-id
+Get session I'd here:
 
-But session I'd link is already provided on the talkdrove site for Subzero MD
-
-Soo
+ttps://tinyurl.com/subzero-md-session-id
 
 After you're done filling it
-
 Click deploy button 
 
 If you can't see any deploy button , switch the website to dark mode 
@@ -153,13 +141,6 @@ If you can't see any deploy button , switch the website to dark mode
 It will show
 
 That's all bot connected
-
-
-
-
-Good Day
-
-
 
 `MR FRANK OFC`</h6>
 </details>
@@ -190,13 +171,53 @@ Good Day
 <a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-black?style=for-the-badge&logo=render&logoColot=white'/< width=150 height=28/p></a>
 ------
 
-<h4 align="center">6. Netlify</h4>
+<h4 align="center">6. Hugging Face</h4>
 <p style="text-align: center; font-size: 1.2em;">
   
 <p align="center">
 <a href='https://app.netlify.com/' target="_blank"><img alt='Netlify' src='https://img.shields.io/badge/-Netlify Deploy-CC00FF?style=for-the-badge&logo=netlify&logoColor=white'/< width=150 height=28/p></a> </a>
 
---------
+<details>
+  
+<b><strong><summary align="center" style="color: Yello;">EASIEST METHOD</summary></strong></b>
+<p style="text-align: center; font-size: 1.2em;">
+ 
+
+<h3 align="center"> HOW TO DEPLOY ON HUGGING FACE</h3>
+<h6 align-"center">
+*❄️ Deploy SubZero On Hugging Face For Free !*
+
+`Specs :`
+- v2 CPU
+- 16GB RAM
+
+> `Steps to deploy`
+
+`Step 1`
+1. Go to hugginface.co/join and create an account and verify your email too.
+
+`Step 2`
+1. Go to https://huggingface.co/spaces/mrfrank-ofc/SUBZERO-MD
+
+2. Tap on *three dots* _(as shown in image)_
+
+3. Tap on *duplicate space* _(as shown in image)_
+
+`Step 3`
+1. Fill your details, e.g., Session ID, Bot Name, owner number etc...
+
+2. Tap on *duplicate space shown below*
+
+```After that wait 10 seconds & your have deployed it successfuly  for free 24/7```
+
+> CREDITS PIKABOTZ🎐
+
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜰʀᴀɴᴋ ᴏꜰᴄ*</h6>
+
+</details>
+
+--------------
+
 
 <h4 align="center">7. Replit</h4>
 <p style="text-align: center; font-size: 1.2em;">
