@@ -331,7 +331,7 @@ Stay connected with the latest updates and community by joining our official Wha
 <br>
 
 ```
-Thank you KHAN, SILENT SOBX, KERM & you supporters
+Thank you Pikachu, KHAN, SILENT SOBX, KERM & you supporters
 ```
 -----
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
