@@ -42,7 +42,7 @@ cmd({
 
     if (!data.message) return reply("No response from the AI.");
 
-    return reply(` \`SUBZEROAI RESPONSE:\` \n${data.message}`);
+    return reply(` \`🤖 SUBZERO AI RESPONSE:\` \n\n${data.message}`);
   } catch (error) {
     console.error(error);
     reply(`An error occurred: ${error.message}`);
