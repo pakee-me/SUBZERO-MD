@@ -30,7 +30,8 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let data = await fetchJson(`https://pikabotzapi.vercel.app/ai/mistral/?apikey=anya-md&message=${q}`)
-return reply(`${data.data}`)
+console.log(data);
+return reply(`${data.message}`)
 }catch(e){
 console.log(e)
 reply(`${e}`)
