@@ -29,7 +29,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let data = await fetchJson(`https://api.davidcyriltech.my.id/ai/chatbot?query=${q}`)
+let data = await fetchJson(`https://pikabotzapi.vercel.app/ai/mistral/?apikey=anya-md&message=${q}`)
 return reply(`${data.data}`)
 }catch(e){
 console.log(e)
