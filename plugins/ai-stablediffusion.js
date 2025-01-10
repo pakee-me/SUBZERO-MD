@@ -6,9 +6,9 @@ const { fetchJson } = require('../lib/functions');
 cmd({
 pattern: "stablediffussion",
 alias: ["sd", "imagine2"],
-react: "🎉",
-desc: "Generate an image using AI.",
-category: "main",
+react: "🎉",
+desc: "Generate an image using AI api.",
+category: "fun",
 filename: __filename
 }, async (conn, mek, m, {
 from,
