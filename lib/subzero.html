@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUBZERO Status</title>
+    <title>SUBZERO BOT STATUS</title>
     <style>
         /* Body Styling */
         body {
@@ -14,11 +14,11 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: linear-gradient(90deg, 
-                blue, skyblue, purple, white, black, #ff0000, #00ff00, #0000ff);
-            background-size: 300% 300%;
-            animation: gradientAnimation 8s infinite alternate;
+            background: linear-gradient(90deg, #004e92, #000428);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s infinite alternate;
             overflow: hidden;
+            position: relative;
         }
 
         @keyframes gradientAnimation {
@@ -26,15 +26,37 @@
             100% { background-position: 100% 50%; }
         }
 
+        /* Snowflake Styling */
+        .snowflake {
+            position: absolute;
+            top: -10px;
+            color: #fff;
+            font-size: 16px;
+            opacity: 0.8;
+            animation: fall 10s linear infinite, sway 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(-10px); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(100vh); }
+        }
+
+        @keyframes sway {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(20px); }
+        }
+
         /* Central Box */
         .container {
             text-align: center;
             padding: 30px;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.7);
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             width: 80%;
             max-width: 600px;
+            z-index: 2;
             animation: fadeIn 2s ease-in-out;
         }
 
@@ -43,21 +65,26 @@
             100% { opacity: 1; transform: scale(1); }
         }
 
-        /* Title Styling */
+        /* Title Styling with Heartbeat Animation */
         .title {
             font-size: 48px;
             font-weight: bold;
             text-transform: uppercase;
-            color: white;
-            text-shadow: 0 0 15px rgba(255, 255, 255, 0.8),
-                         0 0 30px blue,
-                         0 0 45px skyblue;
-            animation: glow 3s infinite alternate;
+            color: #b3ecff;
+            text-shadow: 0 0 15px #b3ecff, 0 0 30px #80dfff, 0 0 45px #4db8ff;
+            animation: heartbeat 1.5s infinite, glow 3s infinite alternate;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            25% { transform: scale(1.1); }
+            50% { transform: scale(0.95); }
+            75% { transform: scale(1.05); }
         }
 
         @keyframes glow {
-            0% { text-shadow: 0 0 15px rgba(255, 255, 255, 0.8); }
-            100% { text-shadow: 0 0 25px purple, 0 0 50px white; }
+            0% { text-shadow: 0 0 15px #b3ecff; }
+            100% { text-shadow: 0 0 25px #66c2ff, 0 0 50px #e6f7ff; }
         }
 
         /* Running Text */
@@ -71,8 +98,8 @@
         .marquee span {
             display: inline-block;
             font-size: 22px;
-            color: white;
-            text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+            color: #b3ecff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
             animation: marqueeAnimation 12s linear infinite;
         }
 
@@ -87,23 +114,36 @@
             margin-top: 20px;
             padding: 10px 25px;
             font-size: 18px;
-            color: white;
+            color: #b3ecff;
             text-transform: uppercase;
             text-decoration: none;
-            border: 2px solid white;
+            border: 2px solid #b3ecff;
             border-radius: 5px;
             transition: 0.3s;
             background: transparent;
+            position: relative;
+            z-index: 2;
         }
 
         .action-btn:hover {
-            background: white;
-            color: black;
+            background: #b3ecff;
+            color: #004e92;
             cursor: pointer;
         }
     </style>
 </head>
 <body>
+    <!-- Snowflakes -->
+    <div class="snowflake" style="left: 10%; animation-delay: 0s;">❄</div>
+    <div class="snowflake" style="left: 20%; animation-delay: 1s;">❅</div>
+    <div class="snowflake" style="left: 30%; animation-delay: 2s;">❆</div>
+    <div class="snowflake" style="left: 40%; animation-delay: 3s;">❄</div>
+    <div class="snowflake" style="left: 50%; animation-delay: 4s;">❅</div>
+    <div class="snowflake" style="left: 60%; animation-delay: 5s;">❆</div>
+    <div class="snowflake" style="left: 70%; animation-delay: 6s;">❄</div>
+    <div class="snowflake" style="left: 80%; animation-delay: 7s;">❅</div>
+    <div class="snowflake" style="left: 90%; animation-delay: 8s;">❆</div>
+
     <div class="container">
         <!-- Status Title -->
         <div class="title">SubZero Bot Online</div>
@@ -116,7 +156,7 @@
         </div>
 
         <!-- Action Button -->
-        <a href="#" class="action-btn">Get Started</a>
+        <a href="https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D" class="action-btn">Get Started</a>
     </div>
 </body>
 </html>
