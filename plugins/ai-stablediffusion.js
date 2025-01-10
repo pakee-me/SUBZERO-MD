@@ -6,7 +6,7 @@ const { fetchJson } = require('../lib/functions');
 cmd({
 pattern: "stablediffussion",
 alias: ["sd", "imagine2"],
-react: "”„",
+react: "🎉",
 desc: "Generate an image using AI.",
 category: "main",
 filename: __filename
@@ -41,7 +41,7 @@ if (!q) return reply("Please provide a prompt for the image.");
 await reply("*Subzero Diffussing Your image...*");
 
 // Generate and send requested image
-let data = await fetchJson(`https://api.davidcyriltech.my.id/diffusion?prompt=${q}`);
+let data = await fetchJson(`https://api.davidcyriltech.my.id/flux?prompt=${q}`);
 const imageUrl = data.result;
 await conn.sendMessage(m.chat, { image: { url: imageUrl } });
 
