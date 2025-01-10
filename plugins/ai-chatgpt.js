@@ -3,8 +3,8 @@ const {cmd , commands} = require('../command')
 const { fetchJson } = require('../lib/functions')
 
 cmd({
-    pattern: "simi",
-    alias: ["simisimi","subzerosimi"], 
+    pattern: "ai",
+    alias: ["simi","gpt"], 
     react: "🧠",
     desc: "ai chat.",
     category: "main",
@@ -12,7 +12,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let data = await fetchJson(`https://api.giftedtech.web.id/api/ai/simsimi?apikey=gifted&query=${q}`)
+let data = await fetchJson(`https://api.davidcyriltech.my.id/ai/gpt4omini?text=${q}`)
 console.log(data);
 return reply(`${data.message}`)
 }catch(e){
