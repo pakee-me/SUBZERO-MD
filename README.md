@@ -103,15 +103,13 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
   
 <p align="center">
 <a href='https://talkdrove.com/share-bot/66' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-TalkDrove ‎Deploy-6971FF?style=for-the-badge&logo=Github&logoColor=white'/< width=150 height=28/p></a>
+TalkDrove 
 
-* Create TaikDrove <a href="https://host.talkdrove.com/auth/signup?ref=9535F15A">Click Here</a>
-<details>
-
-<b><strong><summary align="center" style="color: Yello;">Deploy On Workflow</summary></strong></b>
+<b><strong><summary align="center" style="color: Yello;">HOW TO DEPLOY ON TALKDROVE</summary></strong></b>
 <p style="text-align: center; font-size: 1.2em;">
  
-<h8>Copy the workflow codes and then frok the repo edit config add session id then save and now click on repo action tag then click on start new workflow then paste workflow codes name them deploy and save the file</h8>
-<h3 align-"center"> Important</h3>
+
+<h3 align-"center"> HOW TO DEPLOY ON TALKDROVE</h3>
 <h6 align-"center">Attention! We do not take responsibility if your github account is suspended through this Deploy method, I advise you not to use this workflow deploy method in the latest github accounts, github accounts created a year or more ago have not received the risk of suspension so far, this works It will only be done for 6 hours, you need to update the code to reactivate it.</h6>
 </details>
 
