@@ -37,7 +37,7 @@ async (conn, mek, m, { from, q, reply }) => {
 ${response.data.response}
 
 *POWERED BY MR FRANK*`;
-       console.log(data);
+       console.log(aiReply);
        return reply(aiReply);
    } catch (e) {
        console.log(e);
