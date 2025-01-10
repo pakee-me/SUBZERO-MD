@@ -88,11 +88,6 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 <h2 align="center">SubZero Deployment Options</h2>
 
 ---
-### <br>   ❖ DEPLOY_HEROKU ❖
-
-`🚀 IF YOU WANT TO DEPLOY SUBZERO-MDBOT ON HEROKU SO FIRST GET YOUR SESSION_ID THEN CLICK THIS BLUE BUTTON [DEPLOY TO HEROKU] THEN YOU CAN ENJOY THIS BOT 🚀`
-
-------------
 
 <h4 align="center">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
@@ -113,10 +108,6 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 
 --------------
 
-### <br>   ❖ DEPLOY_KOYEB ❖
-
-`🚀 IF YOU HAVE YOUR KOYEB ACCOUNT SO YOU CAN DEPLOY SUBZERO-MD ON KOYEB WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON 🚀`
-
 
 <h4 align="center">3. Koyeb</h4>
 <p style="text-align: center; font-size: 1.2em;">
@@ -125,29 +116,21 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 <p align="center">
 <a href='https://app.koyeb.com/services/deploy?type=git&repository=mrfrank-ofc/SUBZERO-MD&ports=3000&env[PREFIX]=.&env[SESSION_ID]=&env[ALWAYS_ONLINE]=false&env[MODE]=public&env[AUTO_STATUS_MSG]=Seen%20status%20by%20SUBZERO-MD&env[AUTO_STATUS_REPLY]=false&env[AUTO_STATUS_SEEN]=true&env[AUTO_TYPING]=false&env[ANTI_LINK]=true&env[AUTO_REACT]=false&env[READ_MESSAGE]=false' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-koyeb ‎ deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white'/< width=150 height=28/p></a>
 
-
-### <br>  ❖ DEPLOY_RAILWAY ❖
-
-`🚀 IF YOU HAVE YOUR RAILWAY ACCOUNT SO YOU CAN DEPLOY SUBZERO-MD ON RAILWAY WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON 🚀`
-
+-----
 <h4 align="center">4. Railway</h4>
 <p style="text-align: center; font-size: 1.2em;">
 
 <p align="center">
 <a href='https://railway.app/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-railway deploy-FF8700?style=for-the-badge&logo=railway&logoColor=white'/< width=150 height=28/p></a>
 
-
-### <br>   ❖ DEPLOY_RENDER ❖
-
-<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=maroon&style=for-the-badge&logo=render'/></a></p>
-
+-----
 
 <h4 align="center">5. Render</h4>
 <p style="text-align: center; font-size: 1.2em;">
   
 <p align="center">
 <a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-black?style=for-the-badge&logo=render&logoColot=white'/< width=150 height=28/p></a>
-
+------
 
 <h4 align="center">6. Netlify</h4>
 <p style="text-align: center; font-size: 1.2em;">
@@ -156,15 +139,13 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 <a href='https://app.netlify.com/' target="_blank"><img alt='Netlify' src='https://img.shields.io/badge/-Netlify Deploy-CC00FF?style=for-the-badge&logo=netlify&logoColor=white'/< width=150 height=28/p></a> </a>
 
 --------
-### <br>    ❒ DEPLOY_REPLIT ❒
-
-`🚀 IF U HAVE YOUR REPLIT ACCOUNT SO YOU CAN EASY DEPLOY SUBZERO-MD ON REPLIT CLICK BLACK BUTTON [DEPLOY TO REPLIT] AND FIND CONFIG.JSON FILE THEN PASTE YOUR SESSION AND MONGODB KEY THEN RUN CODE AND ENJOY BOT 🚀`
 
 <h4 align="center">7. Replit</h4>
 <p style="text-align: center; font-size: 1.2em;">
 
 <p align="center">
 <a href='https://replit.com/~' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Replit Deploy-1976D2?style=for-the-badge&logo=replit&logoColor=white'/< width=150 height=28/p></a> </a>
+
  --------
  <h4 align="center">8. Workflow</h4>
 <p style="text-align: center; font-size: 1.2em;">
