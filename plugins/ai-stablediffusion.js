@@ -12,7 +12,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let data = await fetchJson(`https://api.giftedtech.web.id/api/ai/sd?apikey=gifted&prompt=${q}`)
+let data = await fetchJson(`https://api.davidcyriltech.my.id/diffusion?prompt=${q}`)
 const imageUrl = data.result;
 await conn.sendMessage(m.chat, { image: { url: imageUrl } });
 }catch(e){
