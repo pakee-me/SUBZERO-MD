@@ -98,19 +98,70 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 
 ----------
 
-<h4 align="center">2. TaikDrove Free</h4>
+<h4 align="center">2. TalkDrove Free</h4>
 <p style="text-align: center; font-size: 1.2em;">
   
 <p align="center">
 <a href='https://talkdrove.com/share-bot/66' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-TalkDrove ‎Deploy-6971FF?style=for-the-badge&logo=Github&logoColor=white'/< width=150 height=28/p></a>
   
 <details>
-<b><strong><summary align="center" style="color: Yello;">H.TD</summary></strong></b>
+  
+<b><strong><summary align="center" style="color: Yello;">EASIEST METHOD</summary></strong></b>
 <p style="text-align: center; font-size: 1.2em;">
  
 
-<h3 align-"center"> HOW TO DEPLOY ON TALKDROVE</h3>
-<h6 align-"center">Attention! We do not take responsibility if your github account is suspended through this Deploy method, I advise you not to use this workflow deploy method in the latest github accounts, github accounts created a year or more ago have not received the risk of suspension so far, this works It will only be done for 6 hours, you need to update the code to reactivate it.</h6>
+<h3 align="center"> HOW TO DEPLOY ON TALKDROVE</h3>
+<h6 align-"center">
+Create Account Here:
+
+https://host.talkdrove.com/auth/signup?ref=9535F15A
+
+
+Sign up 
+
+Login
+
+Claim 10 coins in wallet section
+
+Locate where to deploy your bot
+
+You will see a dashboard of bots listed 
+
+
+Click next , next
+
+Until you see SUBZERO MD
+
+Then click on it
+
+You will be asked to fill in some stuffs like your session Id , and other stuffs on how you want your bot to be ( bot settings ) , it's not hard I added examples
+
+Get session I'd here Incase you need it:
+
+https://tinyurl.com/subzero-md-session-id
+
+But session I'd link is already provided on the talkdrove site for Subzero MD
+
+Soo
+
+After you're done filling it
+
+Click deploy button 
+
+If you can't see any deploy button , switch the website to dark mode 
+
+It will show
+
+That's all bot connected
+
+
+
+
+Good Day
+
+
+
+`MR FRANK OFC`</h6>
 </details>
 
 --------------
