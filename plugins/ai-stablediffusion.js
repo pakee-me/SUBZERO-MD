@@ -38,7 +38,7 @@ try {
 if (!q) return reply("Please provide a prompt for the image.");
 
 // Indicate processing of user request
-await reply("*Subzero Diffussing Your image...*");
+await reply("Subzero Diffussing Your image...");
 
 // Generate and send requested image
 let data = await fetchJson(`https://api.davidcyriltech.my.id/flux?prompt=${q}`);
