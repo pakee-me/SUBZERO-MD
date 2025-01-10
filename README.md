@@ -103,9 +103,9 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
   
 <p align="center">
 <a href='https://talkdrove.com/share-bot/66' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-TalkDrove ‎Deploy-6971FF?style=for-the-badge&logo=Github&logoColor=white'/< width=150 height=28/p></a>
-TalkDrove 
-
-<b><strong><summary align="center" style="color: Yello;">HOW TO DEPLOY ON TALKDROVE</summary></strong></b>
+  
+<details>
+<b><strong><summary align="center" style="color: Yello;">H.TD</summary></strong></b>
 <p style="text-align: center; font-size: 1.2em;">
  
 
