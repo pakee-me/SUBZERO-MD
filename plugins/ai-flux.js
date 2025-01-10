@@ -5,7 +5,7 @@ const { fetchJson } = require('../lib/functions');
 
 cmd({
 pattern: "fluxai",
-alias: ["flux", "imagine2"],
+alias: ["flux", "imagine"],
 react: "🚀",
 desc: "Generate an image using AI.",
 category: "main",
