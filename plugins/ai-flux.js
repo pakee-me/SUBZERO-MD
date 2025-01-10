@@ -1,108 +1,52 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const _0x5333b8=_0x3865;(function(_0x1db074,_0x3a09ef){const _0xa6b20e=_0x3865,_0x462b36=_0x1db074();while(!![]){try{const _0x1cf8d4=parseInt(_0xa6b20e(0xe3))/0x1+-parseInt(_0xa6b20e(0xf2))/0x2*(-parseInt(_0xa6b20e(0xe9))/0x3)+parseInt(_0xa6b20e(0xeb))/0x4+-parseInt(_0xa6b20e(0xee))/0x5+-parseInt(_0xa6b20e(0xec))/0x6+parseInt(_0xa6b20e(0xed))/0x7*(-parseInt(_0xa6b20e(0xf5))/0x8)+parseInt(_0xa6b20e(0xea))/0x9;if(_0x1cf8d4===_0x3a09ef)break;else _0x462b36['push'](_0x462b36['shift']());}catch(_0x30f52b){_0x462b36['push'](_0x462b36['shift']());}}}(_0x3aff,0x395b7));function hi(){const _0x549a89=_0x3865;console[_0x549a89(0xf8)]('Hello\x20World!');}hi();const config=require(_0x5333b8(0xfa)),{cmd,commands}=require(_0x5333b8(0xf7)),{fetchJson}=require(_0x5333b8(0xfb));cmd({'pattern':_0x5333b8(0xf6),'alias':[_0x5333b8(0xf9),_0x5333b8(0xf1)],'react':'🔄','desc':_0x5333b8(0xf3),'category':'main','filename':__filename},async(_0x37b8fa,_0x4cfad7,_0x59a00d,{from:_0x110f99,quoted:_0x40a94e,body:_0x3a14e7,isCmd:_0x51c026,command:_0x41a1d0,args:_0x32a4f6,q:_0x2947a2,isGroup:_0x280de5,sender:_0x14b721,senderNumber:_0x5d5dd3,botNumber2:_0x47a0cc,botNumber:_0xc876a0,pushname:_0x5952d2,isMe:_0x1b3502,isOwner:_0x90f1ce,groupMetadata:_0x586be4,groupName:_0x1c4d9c,participants:_0x4231bb,groupAdmins:_0x2e6925,isBotAdmins:_0x337c73,isAdmins:_0x312fd4,reply:_0x393943})=>{const _0x215c2a=_0x5333b8;try{if(!_0x2947a2)return _0x393943(_0x215c2a(0xe5));await _0x393943(_0x215c2a(0xf0));let _0x37b8c1=await fetchJson(_0x215c2a(0xe6)+_0x2947a2);const _0x2c5e2b=_0x37b8c1['result'];await _0x37b8fa[_0x215c2a(0xf4)](_0x59a00d[_0x215c2a(0xe7)],{'image':{'url':_0x2c5e2b}});}catch(_0x2d8abb){console[_0x215c2a(0xe4)](_0x2d8abb),_0x393943(_0x215c2a(0xef)+_0x2d8abb[_0x215c2a(0xe8)]);}});function _0x3865(_0x933588,_0x1c0187){const _0x3aff85=_0x3aff();return _0x3865=function(_0x3865cc,_0x1103a7){_0x3865cc=_0x3865cc-0xe3;let _0x227440=_0x3aff85[_0x3865cc];return _0x227440;},_0x3865(_0x933588,_0x1c0187);}function _0x3aff(){const _0x3fdffb=['1211994WdfQya','504636pJeMJu','734202sNifhL','2666699gYVlRH','291155ayNJWQ','An\x20error\x20occurred:\x20','>\x20*Subzero\x20Brewing\x20Up\x20Magic\x20for\x20Your\x20image...😊✨*','subzeroimg','225886OwxaZP','Generate\x20an\x20image\x20using\x20AI.','sendMessage','8ORHdiJ','flux','../command','log','dalle','../config','../lib/functions','83893cLkXCS','error','Please\x20provide\x20a\x20prompt\x20for\x20the\x20image.','https://api.giftedtech.web.id/api/ai/fluximg?apikey=gifted&prompt=','chat','message','12gTooUe'];_0x3aff=function(){return _0x3fdffb;};return _0x3aff();}
+const config = require('../config');
+const { cmd, commands } = require('../command');
+const { fetchJson } = require('../lib/functions');
+
+cmd({
+pattern: "fluxai",
+alias: ["flux", "imagine2"],
+react: "🚀",
+desc: "Generate an image using AI.",
+category: "main",
+filename: __filename
+}, async (conn, mek, m, {
+from,
+quoted,
+body,
+isCmd,
+command,
+args,
+q,
+isGroup,
+sender,
+senderNumber,
+botNumber2,
+botNumber,
+pushname,
+isMe,
+isOwner,
+groupMetadata,
+groupName,
+participants,
+groupAdmins,
+isBotAdmins,
+isAdmins,
+reply
+}) => {
+try {
+if (!q) return reply("Please provide a prompt for the image.");
+
+// Indicate processing of user request
+await reply("> *Subzero Brewing Your Magical image...🪄✨*");
+
+// Generate and send requested image
+let data = await fetchJson(`https://api.giftedtech.web.id/api/ai/fluximg?apikey=gifted&prompt=${q}`);
+const imageUrl = data.result;
+await conn.sendMessage(m.chat, { image: { url: imageUrl } });
+
+} catch (error) {
+console.error(error);
+reply(`An error occurred: ${error.message}`);
+}
+});
