@@ -1,46 +1,43 @@
 
-const config = require('../config');
-const { cmd, commands } = require('../command');
-const { fetchJson } = require('../lib/functions');
 
-cmd({
-  pattern: "lyrics",
-  alias: ["liri", "lyric"],
-  react: "🤍",
-  desc: "Get song lyrics.",
-  category: "music",
-  filename: __filename
-}, async (conn, mek, m, {
-  from,
-  quoted,
-  body,
-  isCmd,
-  command,
-  args,
-  q,
-  isGroup,
-  sender,
-  senderNumber,
-  botNumber2,
-  botNumber,
-  pushname,
-  isMe,
-  isOwner,
-  groupMetadata,
-  groupName,
-  participants,
-  groupAdmins,
-  isBotAdmins,
-  isAdmins,
-  reply
-}) => {
-  try {
-    if (!q) return reply("Please provide a song title or artist name.");
-    let data = await fetchJson(`https://api.giftedtech.web.id/api/search/lyrics?apikey=gifted&query=${q}`);
-    if (!data.result) return reply("No lyrics found for that song.");
-    return reply(data.result);
-  } catch (e) {
-    console.error(e);
-    reply("An error occurred while fetching lyrics.");
-  }
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function _0x2b89(){const _0x4428aa=['log','result','liri','Get\x20song\x20lyrics.','Please\x20provide\x20a\x20song\x20title\x20or\x20artist\x20name.','226878OVmtKQ','error','4Srmefl','63KUBvKv','70191SVNtzw','16aSgVBy','lyric','110KnnouT','Hello\x20World!','94165SVYRUs','566868FsYyqR','No\x20lyrics\x20found\x20for\x20that\x20song.','983200lGRAaH','1748937sFCFEa','../lib/functions','../config','394070jGxdpo','lyrics'];_0x2b89=function(){return _0x4428aa;};return _0x2b89();}const _0x364d55=_0x37c0;(function(_0x1ee435,_0x92be4){const _0x5badcf=_0x37c0,_0x11e4e6=_0x1ee435();while(!![]){try{const _0x246ffd=-parseInt(_0x5badcf(0x94))/0x1+-parseInt(_0x5badcf(0x95))/0x2+-parseInt(_0x5badcf(0x98))/0x3+-parseInt(_0x5badcf(0x8d))/0x4*(parseInt(_0x5badcf(0x9b))/0x5)+-parseInt(_0x5badcf(0x8b))/0x6*(-parseInt(_0x5badcf(0x8e))/0x7)+-parseInt(_0x5badcf(0x90))/0x8*(-parseInt(_0x5badcf(0x8f))/0x9)+-parseInt(_0x5badcf(0x97))/0xa*(-parseInt(_0x5badcf(0x92))/0xb);if(_0x246ffd===_0x92be4)break;else _0x11e4e6['push'](_0x11e4e6['shift']());}catch(_0x1c6b9a){_0x11e4e6['push'](_0x11e4e6['shift']());}}}(_0x2b89,0x492cb));function _0x37c0(_0x1ef6ba,_0x291ab9){const _0x2b8933=_0x2b89();return _0x37c0=function(_0x37c0ae,_0x710f52){_0x37c0ae=_0x37c0ae-0x88;let _0x58371c=_0x2b8933[_0x37c0ae];return _0x58371c;},_0x37c0(_0x1ef6ba,_0x291ab9);}function hi(){const _0x4a9cf0=_0x37c0;console[_0x4a9cf0(0x9d)](_0x4a9cf0(0x93));}hi();const config=require(_0x364d55(0x9a)),{cmd,commands}=require('../command'),{fetchJson}=require(_0x364d55(0x99));cmd({'pattern':_0x364d55(0x9c),'alias':[_0x364d55(0x88),_0x364d55(0x91)],'react':'🎙️','desc':_0x364d55(0x89),'category':'music','filename':__filename},async(_0x495b88,_0x15cff4,_0x5be661,{from:_0x32bb5f,quoted:_0x424d29,body:_0x285c8f,isCmd:_0x5de2c4,command:_0x11b464,args:_0x5d8b65,q:_0x26347a,isGroup:_0x6a813c,sender:_0x4e190a,senderNumber:_0x29c290,botNumber2:_0x3fd304,botNumber:_0x1375d3,pushname:_0x309ec6,isMe:_0x14b4ae,isOwner:_0x14df9f,groupMetadata:_0x42cce1,groupName:_0x579ab3,participants:_0x136d44,groupAdmins:_0x1d8f68,isBotAdmins:_0xec257,isAdmins:_0x3a7a3a,reply:_0x2a3883})=>{const _0x30dbc0=_0x364d55;try{if(!_0x26347a)return _0x2a3883(_0x30dbc0(0x8a));let _0x337588=await fetchJson('https://api.giftedtech.web.id/api/search/lyrics?apikey=gifted&query='+_0x26347a);if(!_0x337588[_0x30dbc0(0x9e)])return _0x2a3883(_0x30dbc0(0x96));const _0x3015f0=_0x337588['result'],_0x2df69d='*LYRICS\x20FOUND!*\x0a\x20\x0a>\x20©\x20GENERATED\x20BY\x20SUBZERO\x20MD📂\x0a\x0a'+_0x3015f0;return _0x2a3883(_0x2df69d);}catch(_0xdcf341){console[_0x30dbc0(0x8c)](_0xdcf341),_0x2a3883('An\x20error\x20occurred\x20while\x20fetching\x20lyrics.');}});
+
