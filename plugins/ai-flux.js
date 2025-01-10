@@ -6,7 +6,7 @@ const { fetchJson } = require('../lib/functions');
 cmd({
 pattern: "flux",
 alias: ["dalle", "subzeroimg"],
-react: "",
+react: "🚀",
 desc: "Generate an image using AI.",
 category: "main",
 filename: __filename
@@ -38,7 +38,7 @@ try {
 if (!q) return reply("Please provide a prompt for the image.");
 
 // Indicate processing of user request
-await reply("*Subzero Brewing image...🪄*");
+await reply("*✨ Subzero Brewing Up Magic for Your image...🪄*");
 
 // Generate and send requested image
 let data = await fetchJson(`https://api.giftedtech.web.id/api/ai/fluximg?apikey=gifted&prompt=${q}`);
