@@ -105,7 +105,7 @@ let dec = `
 
 \`❀━━━━━━━━━━━━━━━❀\`
 
-${readmore}
+${readMore}
 *🏮 \`SUBZERO DOWNLOADER\` 🏮* 
 
 ╭─────────────···◈
