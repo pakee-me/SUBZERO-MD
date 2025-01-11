@@ -83,6 +83,13 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 </a>
 <br> 
 
+> **3️⃣Pair Code (Session ID)**
+
+<a href='https://subzeropq.onrender.com' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-cyan?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+<br> 
+
 ---
 
 <h2 align="center">SubZero Deployment Options</h2>
